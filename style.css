@@ -1,0 +1,22 @@
+body{
+background-image: url("the memories of eugeo.webp");
+}
+form{
+    background-color: white;
+    width: 400px;
+    text-align: center;
+}
+button{
+    background-color: gold;
+}
+h5{
+    width: 40px;
+    font-size: 30px;
+    filter: hue-rotate(90deg);
+    font-family: 'Nabla', cursive;
+    margin:auto;
+}
+h1{
+    color: #56ffb0;
+    word-wrap: break-word;
+}
