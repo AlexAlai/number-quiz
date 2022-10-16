@@ -3,11 +3,14 @@ background-image: url("the memories of eugeo.webp");
 }
 form{
     background-color: white;
+    box-shadow: 0 0 10px gold;
     width: 400px;
     text-align: center;
 }
 button{
-    background-color: gold;
+    background-color: rgb(255, 0, 0);
+    font-family: 'Nabla', cursive;
+    filter: hue-rotate(90deg);
 }
 h5{
     width: 40px;
@@ -18,5 +21,12 @@ h5{
 }
 h1{
     color: #56ffb0;
+    font-family: 'Nabla', cursive;
     word-wrap: break-word;
 }
+input{
+    display:block;
+    margin:auto;
+    border:none;
+    box-shadow: 0 0 10px gold;
+}   
