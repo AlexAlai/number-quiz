@@ -13,7 +13,6 @@ button{
     filter: hue-rotate(90deg);
 }
 h5{
-    width: 40px;
     font-size: 30px;
     filter: hue-rotate(90deg);
     font-family: 'Nabla', cursive;
@@ -29,4 +28,9 @@ input{
     margin:auto;
     border:none;
     box-shadow: 0 0 10px gold;
-}   
+}
+h6{
+    font-family: 'Nabla', cursive;
+    filter: hue-rotate(90deg);
+    font-size: 25px;
+    }

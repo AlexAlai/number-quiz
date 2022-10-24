@@ -1,6 +1,6 @@
 console.log(18);
 console.log("chicken man can fly as a fat chicken because he was born by a pigeon and a rooster dad");
-let fatManLives = 3
+let fatManLives = 1000000
 console.log("lives " + fatManLives);
 let bird = "chicken"
 console.log(bird);
@@ -18,7 +18,9 @@ let playerInput = document.getElementById("playerInput")
 let title = document.getElementById("title")
 let lives = document.getElementById("lives")
 let rules = document.getElementById("rules")
-okButton.onclick = function () {
+okButton.onclick = function (event) {
+    event.preventDefault()
+    // playerInput.value="stranger things and demigorgans"
     console.log(playerInput.value);
     rules.innerHTML = "jojos bizarre adventure"
     // if (pizza is good){
@@ -60,7 +62,7 @@ okButton.onclick = function () {
 refreshbutton.onclick= function () {
     console.log("that time i got reincarnated as a slime")
     title.innerHTML = "quiz"
-     fatManLives = 3
+     fatManLives = 1000000
      lives.innerHTML ="lives:"+fatManLives
      okButton.disabled = false
      secret = Math.floor(Math.random() * 10)
