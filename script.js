@@ -1,6 +1,6 @@
 console.log(18);
 console.log("chicken man can fly as a fat chicken because he was born by a pigeon and a rooster dad");
-let fatManLives = 1000000
+let fatManLives = 3
 console.log("lives " + fatManLives);
 let bird = "chicken"
 console.log(bird);
@@ -62,7 +62,7 @@ okButton.onclick = function (event) {
 refreshbutton.onclick= function () {
     console.log("that time i got reincarnated as a slime")
     title.innerHTML = "quiz"
-     fatManLives = 1000000
+     fatManLives = 3
      lives.innerHTML ="lives:"+fatManLives
      okButton.disabled = false
      secret = Math.floor(Math.random() * 10)
