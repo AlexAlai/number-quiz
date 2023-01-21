@@ -22,7 +22,7 @@ okButton.onclick = function (event) {
     event.preventDefault()
     // playerInput.value="stranger things and demigorgans"
     console.log(playerInput.value);
-    rules.innerHTML = "jojos bizarre adventure"
+    rules.innerHTML = "congrates"
     // if (pizza is good){
     //     eat it
     // }

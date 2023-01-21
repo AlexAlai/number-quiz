@@ -1,11 +1,14 @@
 body{
-background-image: url("the memories of eugeo.webp");
+background: url("cooler background.jpg") center/cover no-repeat;
 }
 form{
     background-color: white;
     box-shadow: 0 0 10px gold;
     width: 400px;
     text-align: center;
+}
+.wraper{
+    height: 100vh;
 }
 button{
     background-color: rgb(255, 0, 0);
