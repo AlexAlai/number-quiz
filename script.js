@@ -66,6 +66,7 @@ refreshbutton.onclick= function () {
      lives.innerHTML ="lives:"+fatManLives
      okButton.disabled = false
      secret = Math.floor(Math.random() * 10)
-     rules.innerHTML = "rules:guess the number and type it and click ok"
+     rules.innerHTML = "rules:guess the number and type it and click ok(1-10
+         )"
      playerInput.value= ""
 }
